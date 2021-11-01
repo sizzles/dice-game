@@ -1,0 +1,13 @@
+.GameButton {
+    background: rgb(0,147,24);
+    background: linear-gradient(0deg, rgba(0,147,24,1) 0%, rgba(83,187,0,1) 42%);
+    border: 0.1em solid black;
+    color: white;
+    padding: 0.5em;
+    margin: 0.5em;
+    margin-top: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: 'Aldrich', sans-serif
+}
