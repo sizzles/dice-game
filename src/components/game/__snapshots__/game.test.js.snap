@@ -42,6 +42,7 @@ exports[`renders a new game correctly 1`] = `
     <div>
       <button
         className="GameButton"
+        data-testid="rollButton"
         onClick={[Function]}
       >
         Roll Dice
@@ -50,6 +51,7 @@ exports[`renders a new game correctly 1`] = `
     <div>
       <button
         className="GameButton"
+        data-testid="resetButton"
         onClick={[Function]}
       >
         Reset

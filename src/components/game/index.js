@@ -9,18 +9,16 @@ import './game.css'
 
 const START_SCORE = -1;
 
-export default function Game() {
-    //Hoist the state up to a higher level - have to determine roll outcome somewhere!
+export default function Game(props) {
     const [playerLastRoll, setPlayerLastRoll] = useState(START_SCORE);
     const [npcLastRoll, setNpcLastRoll] = useState(START_SCORE);
     const [playerWins, setPlayerWins] = useState(0);
     const [npcWins, setNpcWins] = useState(0);
     const [rollOutcome, setRollOutcome] = useState("Let's Play!");
-    const [rollEngine, setRollEngine] = useState(new RollEngine());
 
     const RollDice = () => {
-        var playerRoll =  rollEngine.GetRoll();
-        var npcRoll = rollEngine.GetRoll();
+        var playerRoll =  props.rollEngine.GetRoll();
+        var npcRoll = props.rollEngine.GetRoll();
         
         //Draw
         if(playerRoll == npcRoll) {

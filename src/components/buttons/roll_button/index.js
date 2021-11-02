@@ -4,7 +4,7 @@ import '../buttons.css'
 export const RollButton  = (props) => {
     return (
         <div>
-            <button className="GameButton" onClick={props.rollDice} >Roll Dice</button>
+            <button className="GameButton" onClick={props.rollDice} data-testid="rollButton" >Roll Dice</button>
         </div>
     )
 }
