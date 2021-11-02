@@ -5,7 +5,7 @@ exports[`renders a new game correctly 1`] = `
   className="Game"
 >
   <div
-    className="player"
+    className="Player"
   >
     You
     <div
@@ -57,7 +57,7 @@ exports[`renders a new game correctly 1`] = `
     </div>
   </div>
   <div
-    className="player"
+    className="Player"
   >
     Computer
     <div

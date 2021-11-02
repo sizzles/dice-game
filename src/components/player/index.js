@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ScoreCounter } from '../score_counter';
 import { Dice } from '../dice';
 import './player.css'

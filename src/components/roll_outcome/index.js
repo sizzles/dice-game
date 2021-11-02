@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './roll_outcome.css'
 
 export const RollOutcome = (props) => {

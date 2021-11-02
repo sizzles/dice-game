@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../buttons.css'
 
 export const RollButton  = (props) => {
