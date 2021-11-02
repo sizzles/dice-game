@@ -5,7 +5,7 @@ import './player.css'
 
 export const Player = (props) => {
     return (
-        <div className="player">
+        <div className="Player">
             {props.playerName}
             <Dice lastRoll = {props.playerLastRoll}></Dice>
             <ScoreCounter score = {props.playerWins}></ScoreCounter>
