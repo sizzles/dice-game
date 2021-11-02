@@ -19,7 +19,6 @@ export default function Game() {
     const [rollEngine, setRollEngine] = useState(new RollEngine());
 
     const RollDice = () => {
-        console.log('Rolling!');
         var playerRoll =  rollEngine.GetRoll();
         var npcRoll = rollEngine.GetRoll();
         
