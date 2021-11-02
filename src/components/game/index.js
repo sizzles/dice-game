@@ -20,7 +20,7 @@ export default function Game(props) {
         var npcRoll = props.rollEngine.GetRoll();
         
         //Draw
-        if(playerRoll == npcRoll) {
+        if(playerRoll === npcRoll) {
             setRollOutcome("Draw!!!");
         }
 
