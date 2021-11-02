@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { RollEngine }  from '../roll_engine';
 import { RollButton }  from '../buttons/roll_button'
 import { ResetButton } from '../buttons/reset_button';
 import { RollOutcome } from '../roll_outcome';
